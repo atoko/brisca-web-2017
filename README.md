@@ -1,15 +1,15 @@
 ## Assumes the following endpoints are available on the same host
 
-/_auth/*
-get "/_briscas/query/:id"
-post "/_briscas/find"
-post "/_briscas/new"
-post "/_briscas/public"
-post "/_briscas/match"
-post "/_briscas/card/:id"
-post "/_briscas/join/:id"
-post "/_briscas/bot/:id"
-post "/_briscas/round/:id"
+- `/_auth/*`
+- `get` `/_briscas/query/:id`
+- `post` `/_briscas/find`
+- `post` `/_briscas/new`
+- `post` `/_briscas/public`
+- `post` `/_briscas/match`
+- `post` `/_briscas/card/:id`
+- `post` `/_briscas/join/:id`
+- `post` `/_briscas/bot/:id`
+- `post` `/_briscas/round/:id`
 
 
 ##
