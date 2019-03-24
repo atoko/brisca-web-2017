@@ -1,0 +1,66 @@
+.game-body {
+    font-family: 'Mirza';
+}
+
+.post-game-body {
+    font-family: 'Mirza';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-cards-card {
+    width: 74px;
+}
+
+.player-cards-card img:nth-child(2){
+    display: none;
+}
+
+
+.player-cards {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.player-info {
+    display: flex;
+}
+
+.player-info h3 {
+    flex-grow: 1;
+    margin-left: 18px;
+}
+
+.player {    
+    padding: 20px    
+}
+
+.player .profile {
+    box-shadow: 0px 0px 0px 2px;
+    border-radius: 100px; 
+    box-sizing: border-box;   
+}
+
+.player .profile.next {
+    border: 3px  seagreen dashed;
+    background-blend-mode: lighten;
+}
+
+.game-table {
+    height: 130px;
+    display:flex;
+    align-items: flex-start;
+}
+
+.game-table .game-table-label {
+    flex-grow: 100;
+}
+
+.game-spinner {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    z-index: 1000;    
+}

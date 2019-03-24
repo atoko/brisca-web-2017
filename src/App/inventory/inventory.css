@@ -1,0 +1,24 @@
+.inventory-jumbotron {
+    padding-bottom: 0px;
+}
+
+.inventory-deck-card {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #333;
+    background-color: #c4e4ff;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.8em;
+    padding-right: 0.5em;
+    cursor: pointer;
+}
+
+.inventory-deck-header {
+    align-self: flex-start;
+}
+
+.inventory-deck-footer {
+    align-self: flex-end;
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.4em;
+    color: #222;    
+    background-color: #DEE0DF;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+
+.content {
+    width: 100%;
+    max-width: 970px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #333;
+    background-color: #c4e4ff;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.8em;
+    padding-right: 0.5em;
+    cursor: pointer;
+}
+
+/* 
+button {
+    font-family: 'Open Sans Condensed', cursive;    
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    text-transform: uppercase;    
+    box-shadow: black 0px 0px 1px;    
+    text-shadow: #1C418F 0 1px 0;
+    transition: background 150ms;    
+    color: #fff;    
+}
+button {
+    background: #3D77BE;
+    background: -webkit-linear-gradient(#437EC6,#3861B8);
+    background: linear-gradient(#437EC6,#3861B8);
+    border: 1px solid #1F357C;
+    box-shadow: inset #4F7FD3 0 1px;
+}
+
+button.btn-primary:hover {
+    background: #3D77BE;
+    background: -webkit-linear-gradient(#437EC6,#3861B8);
+    background: linear-gradient(#396EB9,#294C96);
+} */

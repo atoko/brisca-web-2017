@@ -1,0 +1,51 @@
+.briscaGame-card {
+  width: 74px;
+}
+
+
+.card-animation-swipe-enter {
+  opacity: 0.01;
+  transform: translateY(-5em);   
+}
+
+.card-animation-swipe-enter.card-animation-swipe-enter-active {
+  opacity: 1;
+  transform: none;  
+  transition: 600ms;
+  transition-delay: 200ms;  
+}
+
+.card-animation-swipe-leave {
+  opacity: 1;
+  transform: none;  
+  height: 0px;  
+  top: 0px;
+  position:absolute;
+}
+.card-animation-swipe-leave.card-animation-swipe-leave-active {
+  opacity: 0.01;
+  transform: translateY(-5em);
+  transition: 600ms;
+}
+
+
+.card-animation-appear-enter {
+  opacity: 0.01;
+  transform: translateY(-5em); 
+}
+
+.card-animation-appear-enter.card-animation-appear-enter-active {
+  opacity: 1;
+  transform: none;  
+  transition: 400ms;
+}
+
+.card-animation-appear-leave {
+  opacity: 1;
+  transform: none;  
+}
+.card-animation-appear-leave.card-animation-appear-leave-active {
+  opacity: 0.01;
+  transform: translateY(-5em);
+  transition: 400ms;
+}

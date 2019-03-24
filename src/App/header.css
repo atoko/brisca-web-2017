@@ -1,0 +1,27 @@
+.header {
+    font-family: 'Mirza';
+    background-blend-mode: hard-light;
+    margin-left: 1em;
+}
+
+.header h1 {
+    display:inline-block;
+    height: 20px;
+}
+
+.profile-toolbar {
+    position: absolute;
+    right: 5rem;
+}
+
+.profile-toolbar img {
+    width: 32px;
+    height: 32px;
+}
+
+.header select {
+    color: black;
+    font-size: 16px;
+    height: 22px;
+    width: 85px;
+}

@@ -1,0 +1,62 @@
+.lobby-root {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.lobby-root h1 {
+    font-size: 1.4em;
+}
+
+.lobby-picture {
+    width: 20rem;
+    margin: auto;
+}
+.lobby-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.lobby-card {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #333;
+    background-color: #c4e4ff;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.8em;
+    padding-right: 0.5em;
+    cursor: pointer;
+}
+
+.lobby-card-header {
+    align-self: flex-end;
+    font-size: 1.2em;
+    margin-right: 12%;
+}
+
+.lobby-card-button {
+    /* font-family: 'Mirza', cursive; */
+    margin-right: 10%;
+    align-self: flex-end;
+}
+
+.lobby-card-icon {
+    color: #292b2c;
+    margin-bottom: -2em;
+    margin-top: -1.2em;
+    align-self: flex-start;
+}
+
+.lobby-spinner {
+    top: 20vh;
+    left: calc(50vw - 40px);
+    position: absolute;
+    z-index: 1000;    
+}
+
+.brisca-shadow {
+    box-shadow: 0 2px 10px 0 hsla(206,7%,60%,.77);
+}

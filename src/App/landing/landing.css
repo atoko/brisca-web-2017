@@ -1,0 +1,49 @@
+.display-none  {
+    display: none;
+}
+
+.landing-page-copy {}
+
+ul {
+    margin: 0px;
+}
+
+.landing-page-hero {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+
+.landing-page-copy li{
+    display: block;
+    border-bottom: 1px lightgreen dotted;
+    margin-right: 32px;
+}
+
+.login-form-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-form-buttons button {        
+    margin-bottom: 1em;
+}
+
+.login-form-buttons button.small {
+    width: 80%;
+}
+
+.login-form .login-form-spinner {
+    top: 20vh;
+    left: calc(50vw - 40px);
+    position: absolute;
+}
+  
+.login-form-spinner {
+    font-size: 81px;
+    display: block;
+    text-align: center;
+}
+
