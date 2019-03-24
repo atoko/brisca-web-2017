@@ -1,3 +1,20 @@
+## Assumes the following endpoints are available on the same host
+
+/_auth/*
+get "/_briscas/query/:id"
+post "/_briscas/find"
+post "/_briscas/new"
+post "/_briscas/public"
+post "/_briscas/match"
+post "/_briscas/card/:id"
+post "/_briscas/join/:id"
+post "/_briscas/bot/:id"
+post "/_briscas/round/:id"
+
+
+##
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
